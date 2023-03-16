@@ -1,0 +1,68 @@
+﻿@model IEnumerable<CVGS.Models.ReviewViewModel>
+@{
+    ViewBag.Title = "Reviews";
+}
+
+<br />
+@if (@ViewBag.Message != null)
+{
+    <p style="color:red">@ViewBag.Message</p>
+}
+<table class="table table-striped" id="ItemList">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Review1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReviewDate)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (ViewBag.result == "EmptyList")
+        {
+            
+        }
+
+        else
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Review1)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReviewDate)
+                    </td>
+                    <td>
+
+                        @*@using (Html.BeginForm("AddReview", "Review", FormMethod.Get))
+                        {
+                            <input hidden type="text" value="@item.GameID" name="gID" style="width:140px" />
+                            <a href='/Review/AddReview/@item.GameID'>Write a Review</a>
+                            @Html.HiddenFor(modelItem => item.GameID, new { @Value = item.GameID, name = "Id" })
+                        }*@
+                    </td>
+                </tr>
+            }
+        }
+
+
+        <a href='/Review/AddReview/@Model.FirstOrDefault(x=>x.GameID==x.GameID).GameID'>Write a Review</a>
+        @*@Html.ActionLink("Write a Review", "AddReview")*@
+    </tbody>
+</table>
+
+
+

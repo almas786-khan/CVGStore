@@ -1,0 +1,120 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+  
+    @using Microsoft.AspNet.Identity
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @if (Request.IsAuthenticated)
+                {
+
+                     if (HttpContext.Current.User.IsInRole("Admin"))
+                      {
+                            @Html.ActionLink("CVGS", "Index", "Admin", new { area = "" }, new { @class = "navbar-brand" })
+                        }
+                    if (HttpContext.Current.User.IsInRole("Member"))
+                    {
+                        @Html.ActionLink("CVGS", "Index", "Member", new { area = "" }, new { @class = "navbar-brand" })
+                    }
+                }
+                else
+                {
+                    @Html.ActionLink("CVGS", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                }
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                    @if (Request.IsAuthenticated)
+                    {
+                        using (Html.BeginForm("Logout", "Login", new { area = "" }, FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                        {
+                            @Html.AntiForgeryToken()
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> @User.Identity.GetUserName()<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                @if (HttpContext.Current.User.IsInRole("Admin"))
+                                {
+                                    <li>@Html.ActionLink("Index", "Index", "Admin", new { area = "" }, null)</li>
+
+                                    <li><a href="@Url.Action("Index","Event")"><span class="glyphicon glyphicon-calendar"></span> Event</a></li>
+                                    <li><a href="@Url.Action("Evaluate","Review")"><span class="glyphicon glyphicon-list-alt"></span> Evaluate Reviews</a></li>
+                                    <li><a href="@Url.Action("Index","Report")"><span class="glyphicon glyphicon-file"></span> Reports</a></li>
+                                    <li><a href="@Url.Action("Index","Order")"><span class="glyphicon glyphicon-gift"></span> Orders</a></li>
+
+
+                                }
+                                @if (HttpContext.Current.User.IsInRole("Member"))
+                                {
+
+                                    <li><a href="@Url.Action("Modify","Profile")"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+
+                                    <li><a href="@Url.Action("Index","Preference")"><span class="glyphicon glyphicon-cog"></span> Preferences</a></li>
+                                    <li><a href="@Url.Action("Index","Friend")"><span class="glyphicon glyphicon-link"></span> Friends & Family</a></li>
+                                   
+                                    <li><a href="@Url.Action("ModifyAddress","Address")"><span class="glyphicon glyphicon-envelope"></span> Address</a></li>
+
+
+
+                                    <li class="nav-divider"></li>
+                                    <li><a href="@Url.Action("ChangePassword","Member")"><span class="glyphicon glyphicon-wrench"></span> Change Password</a></li>
+                                    <li><a href="@Url.Action("Index","Event")"><span class="glyphicon glyphicon-calendar"></span> Events</a></li>
+                                    <li><a href="@Url.Action("WishList","WishList")"><span class="glyphicon glyphicon-star"></span> WishList</a></li>
+                                    <li><a href="@Url.Action("Payment","Checkout")"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+
+                                    <li><a href="@Url.Action("Index","CreditCard")"><span class="glyphicon glyphicon-credit-card"></span> CreditCard</a></li>
+                                    <li><a href="@Url.Action("Index","Download")"><span class="glyphicon glyphicon-save"></span> Download</a></li>
+                                }
+
+                            </ul>
+                        </li>
+                       
+                        <li><a href="javascript:document.getElementById('logoutForm').submit()"><span class="glyphicon glyphicon-log-out"></span> Log off</a></li>
+                    </ul>
+                        }
+                    }
+                    else
+                    {
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="@Url.Action("Register", "Login")"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="@Url.Action("Login", "Login")"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+                        </ul>
+                    }
+</div>
+        </div>
+    </div>
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            @*<p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>*@
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+
+

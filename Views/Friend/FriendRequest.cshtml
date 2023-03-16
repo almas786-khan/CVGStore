@@ -1,0 +1,47 @@
+﻿
+@model List<CVGS.Models.friendViewModel>
+
+@{
+    ViewBag.Title = "Friend Requests";
+}
+<h2>Friend Requests</h2>
+@if (Model.Count() == 0)
+{
+    <div class="alert alert-info"> <p>No Friend Requests Received.</p></div>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <span> @Html.DisplayFor(modelItem => item.Member2Name)</span>
+                </td>
+                @using (Html.BeginForm("Evaluate", "Friend", FormMethod.Post))
+                {
+                    <td>
+                        <input type="hidden" value="@item.Member2ID" name="gID" style="width:140px" />
+                        <input id="@Model.FirstOrDefault(x=>x.Member2ID == x.Member2ID).Member2ID" type="submit" name="submit" value="Accept" class="btn btn-success">
+                    </td>
+                    <td>
+                        <input type="submit" name="submit" value="Reject" class="btn btn-danger">
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+}
+<div>
+    <p>
+        @Html.ActionLink("Back to List", "Index", "Friend")
+    </p>
+</div>

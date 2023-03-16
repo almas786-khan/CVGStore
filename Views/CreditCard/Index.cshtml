@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CVGS.Models.CreditCard>
+@{
+    ViewBag.Title = "Credit Cards";
+}
+
+<h2>Credit Card Details</h2>
+
+<p>@Html.ActionLink("Add Credit Card", "AddCard", "CreditCard", new { area = "" }, null)</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CardHolderName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CardNumber)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CardHolderName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CardNumber)
+            </td>
+
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,42 @@
+﻿@model List<CVGS.Models.WishListView>
+@{
+        ViewBag.Title = "ViewWishList";
+}
+<div>
+    <br />
+    <p style="color:red">@ViewBag.result</p>
+    <table class="table">
+        <tr>
+            <th>
+                <p>Wishlist</p>
+            </th>
+            <th>
+
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <span> @Html.DisplayFor(modelItem => item.GameName)</span>
+                </td>
+                <td>
+                    @if (!string.IsNullOrWhiteSpace(item.ImageURL))
+                    {
+
+                        <img src="@Url.Content(item.ImageURL)" alt="" height="100" width="100">
+
+                    }
+                </td>
+              
+              
+            </tr>
+        }
+    </table>
+</div>
+<div>
+    <p>
+        @Html.ActionLink("Back to List", "Index", "Friend")
+    </p>
+</div>

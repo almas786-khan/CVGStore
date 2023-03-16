@@ -1,0 +1,60 @@
+﻿@model IEnumerable<CVGS.Models.Game>
+
+@{
+    ViewBag.Title = "Home Page";
+    var counter = 0;
+
+}
+
+<h2>Home Page</h2>
+
+<div class="jumbotron">
+    <h3>Game Store</h3>
+    <p>Welcome to CVGS. You can purchase games here. You can register as 'Member' user to purchase products. </p>
+    <div class="row">
+
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+
+<section id='content'>
+    @foreach (var item in Model)
+    {
+        if ((counter + 1) % 4 == 1)
+        {
+            @:<div class="row productitem">
+            }
+            <div class="col-sm-3 special_grid_col">
+                <div class="special_box">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">@item.GameName</div>
+                        @if (!string.IsNullOrWhiteSpace(item.ImageURL))
+                        {
+                            <div class="panel-body"><img src="@Url.Content(item.ImageURL)" width="100" height="100"></div>
+                        }
+
+                        <div class="panel-footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            if ((counter + 1) % 4 == 0 || counter == Model.Count() - 1)
+            {
+            @:</div>
+        }
+        counter++;
+    }
+</section>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>

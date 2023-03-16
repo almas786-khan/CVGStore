@@ -1,0 +1,42 @@
+﻿@model CVGS.Models.PaymentViewModel
+
+@{
+    ViewBag.Title = "Payment Details";
+    var cost = 0.00;
+}
+
+<h2>Details</h2>
+
+<div class="jumbotron">
+    @foreach (var item in Model.Games)
+    {
+        cost = cost + (double)item.GamePrice;
+        <table class="table">
+            <tr>
+               
+                <th style="width:70%;">
+                    @item.GameName
+                </th>
+                <th style="width:30%;">
+                    CDN$ @item.GamePrice
+                </th>
+            </tr>
+
+        </table>
+    }
+    @using (Html.BeginForm("ConfirmDetail", "Checkout", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <h2>Payment Options</h2>
+        <select class="form-control" id="CreditCardId" name="CreditCardId">
+            @foreach (var card in Model.CreditCards)
+            {
+                <option value="@card.CreditCardID">Card ending in @card.CardNumber.Remove(0, 12)</option>
+            }
+        </select>
+        <p>Total: $@cost</p>
+        <input hidden type="text" value="@cost" name="Total" style="width:140px" />
+        <input type="submit" value="Confirm" />
+    }
+</div>
+
+

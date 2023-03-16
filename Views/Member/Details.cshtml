@@ -1,0 +1,84 @@
+﻿@model CVGS.Models.Game
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GameName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GamePrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GamePrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameOverallRating)
+        </dt>
+
+        <dd>
+            @*@for (float i = 1f; i < @Model.GameOverallRating; i+=0.5f)
+                {
+                    <span class="glyphicon glyphicon-star"></span>
+                }
+                @for (var i = @Model.GameOverallRating; i < 5; i++)
+                {
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                }*@
+            @if (@Model.GameOverallRating == null)
+            {
+                <span>Nobody has rated this game.</span>
+            }
+            else
+            {
+                @Html.DisplayFor(model => model.GameOverallRating)
+            }
+
+    </dl>
+
+
+</div>
+@if (ViewBag.message == "Edit Rating")
+{
+    <span>
+        @Html.ActionLink("Edit Rate", "Rate", new { id = @Model.GameID }) |
+        @Html.ActionLink("Back to List", "Index", "Member")  |
+        <a href='/Review/Index/@Model.GameID'>Reviews</a>
+    </span>
+}
+else
+{
+<span>
+
+    @Html.ActionLink("Rate", "Rate", new { id = @Model.GameID }) |
+    @Html.ActionLink("Back to List", "Index", "Member") |
+    <a href='/Review/Index/@Model.GameID'>Reviews</a>
+</span>
+
+    
+}
+
+
+
+

@@ -1,0 +1,234 @@
+﻿@model IEnumerable<CVGS.Models.Game>
+
+@{
+    ViewBag.Title = "Member Page";
+
+
+}
+
+<br />
+
+@if (@ViewBag.addWishList != null)
+{
+    <div class="alert alert-success">
+        <p>@ViewBag.addWishList</p>
+    </div>
+}
+@if (ViewBag.removeWishList != null)
+{
+    <div class="alert alert-info">
+        <p>@ViewBag.removeWishList</p>
+    </div>
+}
+@if (TempData["InfoMessage"] != null)
+{
+    <div class="alert alert-info"> @TempData["InfoMessage"]</div>
+}
+else if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger"> @TempData["ErrorMessage"]</div>
+}
+
+@using (Html.BeginForm("Index", "Member", FormMethod.Get))
+{
+    @Html.TextBox("Search", null, new { Class = "form-control", placeHolder = "Search Game Here" })
+    <input type="submit" value="Search" class="btn btn-success" />
+}
+
+@if (Model.Count() == 0)
+{
+    <div class="alert alert-danger"><p> No GAME Found.</p></div>
+
+}
+else
+{
+    <table class="table table-striped" id="ItemList">
+        <thead>
+            <tr>
+                <th>
+                    Game Name
+                <th>
+
+                </th>
+
+                <th>
+
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                @*<a href="@Url.Action("Details", "Member")" new { id=item.GameID }> @Html.DisplayFor(modelItem => item.GameName)</a>*@
+                                <a href='/Member/Details/@item.GameID'> @Html.DisplayFor(modelItem => item.GameName)</a>
+                            </li>
+                        </ul>
+
+                    </td>
+
+                    <td>
+
+                        @if (!string.IsNullOrWhiteSpace(item.ImageURL))
+                        {
+
+                            <a href='/Member/Details/@item.GameID'><img src="@Url.Content(item.ImageURL)" alt="" height="100" width="100"></a>
+
+                        }
+
+                    </td>
+                    <td>
+                        @*@using (Html.BeginForm("Main", "WishList", FormMethod.Post))*@
+                        @using (Html.BeginForm("Index", "Member", FormMethod.Post))
+                        {
+
+                            <div class="form-actions no-color">
+                                <input hidden type="text" value="@item.GameID" name="gID" style="width:140px" />
+
+                                @{
+                                    Array objectArrayTrue = (Array)TempData["checkGameIdTrue"];
+
+                                    var checkWishList = true;
+                                    int checkBooleanFalse = 0;
+
+                                    Array[] arrayCheckWishList = new Array[checkBooleanFalse];
+                                    if (objectArrayTrue != null)
+                                    {
+                                        foreach (var checkId in objectArrayTrue)
+                                        {
+
+                                            if (checkId.ToString() == item.GameID.ToString())
+                                            {
+
+                                                checkWishList = false;
+                                                checkBooleanFalse++;
+                                                break;
+
+                                            }
+                                            else
+                                            {
+                                                checkWishList = true;
+                                            }
+
+                                        }
+
+                                        if (checkBooleanFalse > 0)
+                                        {
+                                            <input type="submit" value="Remove" class="btn btn-success" style="width:140px">
+                                        }
+                                        else if (checkBooleanFalse == 0)
+                                        {
+                                            <input type="submit" value="Add to WishList" class="btn btn-primary" style="width:140px">
+                                            @*<input type="submit" value="WishList" class="btn btn-light">*@
+                                        }
+
+                                    }
+
+                                }
+
+
+                            </div>
+                        }
+                    </td>
+                    <td>
+                        @{
+                            Array ownedGamesArray = (Array)TempData["OwnedGames"];
+                            int storedGames = 0;
+                            int ownedGames = 0;
+                            if (ownedGamesArray == null)
+                            {
+                                foreach (var checkgame in (dynamic)Session["Cart"])
+                                {
+                                    if (checkgame.GameID.ToString() == item.GameID.ToString())
+                                    {
+                                        storedGames++;
+                                        break;
+                                    }
+                                }
+                                if (storedGames > 0)
+                                {
+                                    using (Html.BeginForm("RemoveFromIndex", "Checkout", FormMethod.Post))
+                                    {
+                                        <input hidden type="text" value="@item.GameID" name="gID" style="width:140px" />
+                                        <input type="submit" value="Remove from Cart" class="btn btn-danger" style="width:140px" />
+                                    }
+                                }
+                                else
+                                {
+                                    using (Html.BeginForm("Add", "Checkout", FormMethod.Post))
+                                    {
+                                        <input hidden type="text" value="@item.GameID" name="gID" style="width:140px" />
+                                        <input type="submit" value="Add to Cart" class="btn btn-info" style="width:140px" />
+                                    }
+                                }
+                            }
+                            else if (ownedGamesArray != null)
+                            {
+                                foreach (var ownedGame in ownedGamesArray)
+                                {
+                                    if (ownedGame.ToString() == item.GameID.ToString())
+                                    {
+                                        ownedGames++;
+                                        break;
+                                    }
+                                }
+                                if (ownedGames > 0)
+                                {
+                                    // <p>you own this game</p>
+                                    using (Html.BeginForm("Index", "Download"))
+                                    {
+                                        <input type="submit" value="Already Purcahsed" class="btn btn-default" style="width:140px" />
+                                    }
+
+                                }
+                                else
+                                {
+                                    foreach (var checkgame in (dynamic)Session["Cart"])
+                                    {
+                                        if (checkgame.GameID.ToString() == item.GameID.ToString())
+                                        {
+                                            storedGames++;
+                                            break;
+                                        }
+                                    }
+                                    if (storedGames > 0)
+                                    {
+                                        using (Html.BeginForm("RemoveFromIndex", "Checkout", FormMethod.Post))
+                                        {
+                                            <input hidden type="text" value="@item.GameID" name="gID" style="width:140px" />
+                                            <input type="submit" value="Remove from Cart" class="btn btn-danger" style="width:140px" />
+                                        }
+                                    }
+                                    else
+                                    {
+                                        using (Html.BeginForm("Add", "Checkout", FormMethod.Post))
+                                        {
+                                            <input hidden type="text" value="@item.GameID" name="gID" style="width:140px" />
+                                            <input type="submit" value="Add to Cart" class="btn btn-info" style="width:140px" />
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
+
+
+
+
+
+
+

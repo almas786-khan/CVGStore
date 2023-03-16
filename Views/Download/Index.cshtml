@@ -1,0 +1,58 @@
+﻿@model List<CVGS.Models.DownloadGameViewModel>
+@{
+    ViewBag.Title = "Downloads";
+}
+<h2>Purchased Games</h2>
+@if (TempData["InfoMessage"] != null)
+{
+    <div class="alert alert-info"> @TempData["InfoMessage"]</div>
+}
+
+@if (Model.Count() == 0)
+{
+   
+        
+            <div class="alert alert-info">  You have not purchased any Game.</div>
+        
+    
+}
+else
+{
+<table class="table table-striped">
+    <tr>
+        <th>Game Name</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <span>@Html.DisplayFor(modelItem => item.GameName)</span>
+
+            </td>
+            <td class="align-middle">
+                @if (!string.IsNullOrWhiteSpace(item.ImageURL))
+                {
+
+                    <img class="rounded-circle" src="@Url.Content(item.ImageURL)" style="max-width: 150px" />
+
+                }
+
+            </td>
+            @using (Html.BeginForm("DownloadGame", "Download", new { Id = item.GameID }, FormMethod.Post))
+            {
+
+                <td><span><input type="submit" value="Download" class="btn btn-info"></span></td>
+            }
+
+
+        </tr>
+
+
+
+    }
+</table>
+
+}
+  

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<CVGS.Models.PopularGameReport>
+@{
+    ViewBag.Title = "WishList Report";
+}
+
+<h2>Wish List Report</h2>
+<h4>This report shows which game is popular based on rating and sales.</h4>
+
+
+<a href="@Url.Action("ExportToExcelForPopular","Report")">Download Report</a>
+<br />
+
+<table class="table" style="border: 1px solid black">
+    <tr style="background-color:gainsboro">
+
+        <th>
+           Purchased By
+        </th>
+        <th>
+            Game Name
+        </th>
+
+        <th> Overall rating</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.purchased)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.GameName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.GameOverallRating)
+            </td>
+
+        </tr>
+    }
+
+</table>
+<div>
+    <a href=/Report/Index>Back to List</a>
+
+</div>

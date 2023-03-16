@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Owin.Security.OAuth.Manager.Client</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Client.ITokenManager.tokenCreate(System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})">
+            <summary>
+            Persistent Token
+            </summary>
+        </member>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Client.ITokenManager.VerifyToken(System.String)">
+            <summary>
+            Verify Token
+            </summary>
+        </member>
+    </members>
+</doc>

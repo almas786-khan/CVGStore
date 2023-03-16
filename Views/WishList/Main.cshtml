@@ -1,0 +1,105 @@
+﻿@model IEnumerable<CVGS.Models.Game>
+
+@{
+    ViewBag.Title = "Main";
+}
+
+
+@if (@ViewBag.addWishList != null)
+{
+    <div class="form-group">
+        <p style="color:red">@ViewBag.addWishList</p>
+    </div>
+}
+@if (ViewBag.removeWishList != null)
+{
+    <div class="form-group">
+        <p style="color:red">@ViewBag.removeWishList</p>
+    </div>
+}
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.GameName)
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.ImageURL)*@
+        </th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameName)
+            </td>
+
+            <td>
+                <img src="@Url.Content(item.ImageURL)" width="80" height="80" />
+            </td>
+            <td>
+
+
+                @using (Html.BeginForm("Main", "WishList", FormMethod.Post))
+                {
+
+                    <div class="form-actions no-color">
+                        <input hidden type="text" value="@item.GameID" name="gID" style="width:140px" />
+                        @*<input type="submit" value="WishList" class="btn btn-primary">*@
+
+                        @{
+                            Array objectArrayTrue = (Array)TempData["checkGameIdTrue"];
+
+                            var checkWishList = true;
+                            int checkBooleanFalse = 0;
+
+                            Array[] arrayCheckWishList = new Array[checkBooleanFalse];
+                            if (objectArrayTrue != null)
+                            {
+                                foreach (var checkId in objectArrayTrue)
+                                {
+
+                                    if (checkId.ToString() == item.GameID.ToString())
+                                    {
+
+                                        checkWishList = false;
+                                        checkBooleanFalse++;
+                                        break;
+
+                                    }
+                                    else
+                                    {
+                                        checkWishList = true;
+                                    }
+
+                                }
+
+                                if (checkBooleanFalse > 0)
+                                {
+                                    <input type="submit" value="Cancel_WishList" class="btn btn-success">
+                                }
+                                else if (checkBooleanFalse == 0)
+                                {
+                                    <input type="submit" value="WishList" class="btn btn-light">
+                                }
+
+                            }
+
+                        }
+                    </div>
+                }
+
+
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+

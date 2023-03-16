@@ -1,0 +1,43 @@
+﻿@model IEnumerable<CVGS.Models.WishListReport>
+@{
+    ViewBag.Title = "WishList Report";
+}
+
+<h2>Wish List Report</h2>
+<h4>This report shows how many people has a particular game in their wishlists.</h4>
+
+
+<a href="@Url.Action("ExportToExcelForWishList","Report")">Download Report</a>
+<br/> 
+
+<table class="table" style="border: 1px solid black">
+    <tr style="background-color:gainsboro">
+
+        <th>
+           In People's Wishlist
+        </th>
+        <th>
+            Game Name
+        </th>
+       
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.occurence)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.gameName)
+            </td>
+
+        </tr>
+    }
+
+</table>
+        <div>
+            <a href=/Report/Index>Back to List</a>
+
+        </div>

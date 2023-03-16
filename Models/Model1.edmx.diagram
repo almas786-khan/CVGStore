@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="792133fa029f4f08819a16efc90d1043" Name="Diagram1">
+        <EntityTypeShape EntityType="cvgsModel.Address" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Category" Width="1.5" PointX="3.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.CategoryPreference" Width="1.5" PointX="6" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Country" Width="1.5" PointX="0.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.CreditCard" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Event" Width="1.5" PointX="3.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.EventRegistration" Width="1.5" PointX="6" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Friend" Width="1.5" PointX="3" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Game" Width="1.5" PointX="3.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Order" Width="1.5" PointX="5.25" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.OrderDetail" Width="1.5" PointX="7.5" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Platform" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.PlatformPreference" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Province" Width="1.5" PointX="0.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Rating" Width="1.5" PointX="8" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Review" Width="1.5" PointX="6" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.User" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.UserRole" Width="1.5" PointX="3" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cvgsModel.Wishlist" Width="1.5" PointX="9" PointY="16.25" IsExpanded="true" />
+        <AssociationConnector Association="cvgsModel.FK_Address_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Address_Province" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Address_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Category_Preferences_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Category_Preferences_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_CreditCard_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Order_CreditCard" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_EventRegistration_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_EventRegistration_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Friend_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Friend_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_OrderDetail_Game" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Rating_Game" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Review_Game" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Wishlist_Game" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_OrderDetail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Platform_Preferences_Platform" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Platform_Preferences_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Rating_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Review_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_UserRole_User" ManuallyRouted="false" />
+        <AssociationConnector Association="cvgsModel.FK_Wishlist_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

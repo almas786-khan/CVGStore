@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CVGS.Models.Wishlist>
+
+
+@{
+    ViewBag.Title = "WishList";
+}
+
+<h2>WishList</h2>
+<link rel="stylesheet" href="~/css/normalize.css">
+<link rel="stylesheet" href="~/dist/good-share.min.css">
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Game.GameName)
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.Game.ImageFile)*@
+        </th>
+        <td hidden>
+            @Html.DisplayNameFor(model => model.Game.GameID)
+        </td>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Game.GameName)
+            </td>
+
+            <td>
+                <img src="@Url.Content(item.Game.ImageURL)" width="80" height="80" />
+            </td>
+            <td>
+                <button class="good-share btn btn-success btn-sm btn-default" data-share-title="WishList" data-share-url="https://localhost:44339/WishList/WishList">Share</button>
+                <script src="~/dist/good-share.min.js"></script>
+                @*@Html.ActionLink("Share", "SocialMedia", new { id = item.WishlistID }, new { @class = "btn btn-success btn-sm btn-default" })*@
+            </td>
+            <td hidden>
+                @Html.DisplayFor(modelItem => item.Game.GameID)
+            </td>
+        </tr>
+
+
+    }
+
+</table>
+
+

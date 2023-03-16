@@ -1,0 +1,38 @@
+﻿
+
+@{
+    ViewBag.Title = "Reports";
+}
+<h2>Reports</h2>
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <td>
+            @Html.ActionLink("Game Details Report", "GameReport", "Report")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Member Details Report", "MemberReport", "Report")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Popular Games Report", "PopularReport", "Report")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Sales Report", "SalesReport", "Report")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Wishlist Report", "WishListReport", "Report")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Member Report", "PopularMember", "Report")
+        </td>
+    </tr>
+</table>

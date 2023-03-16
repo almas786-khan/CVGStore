@@ -1,0 +1,70 @@
+﻿@model IEnumerable<CVGS.Models.Game>
+
+@{
+    ViewBag.Title = "Game";
+}
+
+<h2>Game</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddGame")
+</p>
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <table class="table">
+            <thead>
+                <tr class="text-center">
+                    <th>@Html.DisplayNameFor(model => model.ImageURL)</th>
+                    <th>@Html.DisplayNameFor(model => model.GameName)</th>
+                    <th>@Html.DisplayNameFor(model => model.GameDescription)</th>
+                    <th>@Html.DisplayNameFor(model => model.GamePrice)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="align-middle">
+                            @if (!string.IsNullOrWhiteSpace(item.ImageURL))
+                            {
+
+                                <img class="rounded-circle" src="@Url.Content(item.ImageURL)" style="max-width: 150px" />
+
+                            }
+
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.GameName)
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.GameDescription)
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.GamePrice)
+                        </td>
+                       
+                        <td class="align-middle">
+                            @Html.ActionLink("Edit", "Edit", new { id = item.GameID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.GameID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.GameID })
+                          
+                        </td>
+                        
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+</div>
+</div>
+
+
+
+    
+
+
+
+

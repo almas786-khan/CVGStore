@@ -1,0 +1,36 @@
+﻿@model List<CVGS.Models.friendViewModel>
+
+@{
+    ViewBag.Title = "Friends";
+}
+<h2>List of your Friends & Family</h2>
+
+<p>@Html.ActionLink("Add Friends", "AddFriend", "Friend")</p>
+<p>@Html.ActionLink("View Friend Requests", "FriendRequest", "Friend")</p> 
+
+
+    <table class="table">
+        <tr>
+            <th>
+                <p>Friends</p>
+            </th>
+
+        </tr>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <span><a href='/Friend/Details/@item.Member2ID'> @Html.DisplayFor(modelItem => item.Member2Name)</a></span>
+
+                </td>
+
+            </tr>
+        }
+
+
+    </table>
+
+
+

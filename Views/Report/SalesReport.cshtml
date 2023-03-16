@@ -1,0 +1,64 @@
+﻿@model IEnumerable<CVGS.Models.SalesReportModel>
+@{
+    ViewBag.Title = "Sales Report";
+}
+
+<h2>Sales Report</h2>
+<h4>This report shows Sales.</h4>
+
+
+<a href="@Url.Action("ExportToExcelForSales","Report")">Download Report</a>
+<br />
+
+<table class="table" style="border: 1px solid black">
+    <tr style="background-color:gainsboro">
+        <th>Order Date</th>
+        
+        <th>
+            Game Name
+        </th>
+
+        <th> Game Price</th>
+        <th> Purchases</th>
+        <th> Total Amount</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.GameName)
+            </td>
+
+            <td>$ 
+                @Html.DisplayFor(modelItem => item.GamePrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Purchases)
+            </td>
+            <td>$ 
+                @Html.DisplayFor(modelItem => item.TotalAmount)
+            </td>
+            
+        </tr>
+    }
+   
+      
+        <div>
+           
+                <tr style="background-color:gainsboro">
+                <th>Total Sales</th><th></th><th></th><th></th>
+                    <th>$ @ViewBag.Total</th>
+                    </tr>
+</div>
+    
+    
+</table>
+<div>
+    <span><a href=/Report/Index>Back to List</a></span>
+
+</div>
+

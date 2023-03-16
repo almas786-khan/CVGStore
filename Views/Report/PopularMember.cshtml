@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CVGS.Models.PopularMember>
+@{
+    ViewBag.Title = "Popular Member Report";
+}
+
+<h2>Popular Member Report</h2>
+<h4>This report shows which member has spent how much money.</h4>
+
+
+<a href="@Url.Action("ExportToExcelForPopularM","Report")">Download Report</a>
+<br />
+
+<table class="table" style="border: 1px solid black">
+    <tr style="background-color:gainsboro">
+
+        <th>
+           Total Spend Amount
+        </th>
+        <th>
+            Member User Name
+        </th>
+
+      
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>$ 
+                @Html.DisplayFor(modelItem => item.amount)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+
+           
+
+        </tr>
+    }
+
+</table>
+<div>
+    <a href=/Report/Index>Back to List</a>
+
+</div>
+

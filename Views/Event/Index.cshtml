@@ -1,0 +1,166 @@
+﻿@model IEnumerable<CVGS.Models.Event>
+
+@{
+    ViewBag.Title = "Events";
+}
+<br/>
+@if (@ViewBag.AddEvent != null)
+{
+    <div class="form-group">
+        <p style="color:red">@ViewBag.AddEvent</p>
+    </div>
+}
+@if (ViewBag.removeWishList != null)
+{
+    <div class="form-group">
+        <p style="color:red">@ViewBag.removeWishList</p>
+    </div>
+}
+
+<h2>Events</h2>
+@if (ViewBag.message == "Member")
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EventName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.EventDate)
+            </th>
+            <th> @Html.DisplayNameFor(model => model.ImageURL)</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventDate)
+                </td>
+
+                <td>
+                    @if (!string.IsNullOrWhiteSpace(item.ImageURL))
+                    {
+                        <a href="#" class="product-list-img">
+                            <img src="@Url.Content(item.ImageURL)" alt="" height="100" width="100">
+                        </a>
+                    }
+
+                </td>
+                <td>
+                    @using (Html.BeginForm("Index", "Event", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+
+                        <div class="form-actions no-color">
+                            <input hidden type="text" value="@item.EventID" name="eID" style="width:140px" />
+                            @*<input type="submit" value="Register" class="btn btn-primary">*@
+                            @{
+                                Array objectArrayTrue = (Array)TempData["checkGameIdTrue"];
+
+                                var checkWishList = true;
+                                int checkBooleanFalse = 0;
+
+                                Array[] arrayCheckWishList = new Array[checkBooleanFalse];
+                                if (objectArrayTrue != null)
+                                {
+                                    foreach (var checkId in objectArrayTrue)
+                                    {
+
+                                        if (checkId.ToString() == item.EventID.ToString())
+                                        {
+
+                                            checkWishList = false;
+                                            checkBooleanFalse++;
+                                            break;
+
+                                        }
+                                        else
+                                        {
+                                            checkWishList = true;
+                                        }
+
+                                    }
+
+                                    if (checkBooleanFalse > 0)
+                                    {
+                                        <input type="submit" value="UnRegister" class="btn btn-success" style="width:140px">
+                                    }
+                                    else if (checkBooleanFalse == 0)
+                                    {
+                                        <input type="submit" value="Register" class="btn btn-primary" style="width:140px">
+                                    }
+
+                                }
+
+                            }
+
+                        </div>
+                    }
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}
+else
+{
+    <p>
+        @Html.ActionLink("Create New", "AddEvent")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EventName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventDate)
+            </th>
+            <th> @Html.DisplayNameFor(model => model.ImageURL)</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventDate)
+                </td>
+                <td>
+                </td>
+                <td>
+                    @if (!string.IsNullOrWhiteSpace(item.ImageURL))
+                    {
+                        <a href="#" class="product-list-img">
+                            <img src="@Url.Content(item.ImageURL)" alt="" height="100" width="100">
+                        </a>
+                    }
+
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditEvent", new { id = item.EventID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.EventID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.EventID })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}
+
+
+

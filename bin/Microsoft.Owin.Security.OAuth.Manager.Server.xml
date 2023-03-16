@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Owin.Security.OAuth.Manager.Server</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Server.IUserManager.VerifyClient(System.String,System.String)">
+            <summary>
+            Verify client information
+            </summary>
+        </member>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Server.IUserManager.VerifyUser(Microsoft.Owin.Security.OAuth.OAuthGrantResourceOwnerCredentialsContext,System.String@)">
+            <summary>
+            Verify account number (return account unique identifier)
+            </summary>       
+        </member>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Server.IRefreshTokenManager.refreshtokenCreate(System.String,System.String,System.String)">
+            <summary>
+            Persistent refresh Token
+            </summary>
+        </member>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Server.IRefreshTokenManager.Delete(System.String)">
+            <summary>
+            Delete refresh Token
+            </summary>
+        </member>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Server.IRefreshTokenManager.GetSerializeTicketByToken(System.String)">
+            <summary>
+            Get SerializeTicket by refresh Token
+            </summary>
+        </member>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Server.ITokenManager.tokenCreate(System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})">
+            <summary>
+            Persistent Token
+            </summary>
+        </member>
+        <member name="M:Microsoft.Owin.Security.OAuth.Manager.Server.ITokenManager.VerifyToken(System.String)">
+            <summary>
+            Verify Token
+            </summary>
+        </member>        
+    </members>
+</doc>

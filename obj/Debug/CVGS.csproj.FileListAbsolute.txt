@@ -1,0 +1,533 @@
+C:\wcf\s1\CVGS\CVGS\bin\CVGS.dll.config
+C:\wcf\s1\CVGS\CVGS\bin\CVGS.dll
+C:\wcf\s1\CVGS\CVGS\bin\CVGS.pdb
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\csc.exe
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\csc.exe.config
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\csc.rsp
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\csi.exe
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\csi.exe.config
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\csi.rsp
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.AppContext.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Collections.Immutable.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Console.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Globalization.Calendars.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.IO.Compression.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Net.Http.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Net.Sockets.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Reflection.Metadata.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.ValueTuple.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Xml.XPath.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\vbc.exe
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\vbc.exe.config
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\vbc.rsp
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe
+C:\wcf\s1\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe.config
+C:\wcf\s1\CVGS\CVGS\bin\Antlr3.Runtime.dll
+C:\wcf\s1\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\wcf\s1\CVGS\CVGS\bin\Microsoft.Web.Infrastructure.dll
+C:\wcf\s1\CVGS\CVGS\bin\Newtonsoft.Json.dll
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.Helpers.dll
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.Mvc.dll
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.Optimization.dll
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.Razor.dll
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.WebPages.Deployment.dll
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.WebPages.dll
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.WebPages.Razor.dll
+C:\wcf\s1\CVGS\CVGS\bin\WebGrease.dll
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.Helpers.xml
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.Mvc.xml
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.Optimization.xml
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.Razor.xml
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.WebPages.xml
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.WebPages.Deployment.xml
+C:\wcf\s1\CVGS\CVGS\bin\System.Web.WebPages.Razor.xml
+C:\wcf\s1\CVGS\CVGS\bin\Newtonsoft.Json.xml
+C:\wcf\s1\CVGS\CVGS\bin\Antlr3.Runtime.pdb
+C:\wcf\s1\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\wcf\s1\CVGS\CVGS\obj\Debug\CVGS.csproj.AssemblyReference.cache
+C:\wcf\s1\CVGS\CVGS\obj\Debug\CVGS.csproj.CoreCompileInputs.cache
+C:\wcf\s1\CVGS\CVGS\obj\Debug\CVGS.csproj.CopyComplete
+C:\wcf\s1\CVGS\CVGS\obj\Debug\CVGS.dll
+C:\wcf\s1\CVGS\CVGS\obj\Debug\CVGS.pdb
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\CVGS.dll.config
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\CVGS.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\CVGS.pdb
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\csc.exe
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\csc.exe.config
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\csc.rsp
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\csi.exe
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\csi.exe.config
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\csi.rsp
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.AppContext.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Collections.Immutable.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Console.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Globalization.Calendars.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.IO.Compression.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Net.Http.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Net.Sockets.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Reflection.Metadata.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.ValueTuple.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Xml.XPath.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\vbc.exe
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\vbc.exe.config
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\vbc.rsp
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe.config
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\Antlr3.Runtime.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\EntityFramework.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\EntityFramework.SqlServer.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\Microsoft.Web.Infrastructure.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\Newtonsoft.Json.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.Helpers.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.Mvc.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.Optimization.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.Razor.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.Deployment.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.Razor.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\WebGrease.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\EntityFramework.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\EntityFramework.SqlServer.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.Helpers.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.Mvc.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.Optimization.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.Razor.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.Deployment.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.Razor.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\Newtonsoft.Json.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\Antlr3.Runtime.pdb
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.csproj.AssemblyReference.cache
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.csproj.CoreCompileInputs.cache
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.csproj.CopyComplete
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.dll
+C:\GamingWebsite\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.pdb
+C:\GamingWebsite\CVGS\CVGS\bin\CVGS.dll.config
+C:\GamingWebsite\CVGS\CVGS\bin\CVGS.dll
+C:\GamingWebsite\CVGS\CVGS\bin\CVGS.pdb
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\csc.exe
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\csc.exe.config
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\csc.rsp
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\csi.exe
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\csi.exe.config
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\csi.rsp
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.AppContext.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Collections.Immutable.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Console.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Globalization.Calendars.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.IO.Compression.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Net.Http.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Net.Sockets.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Reflection.Metadata.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.ValueTuple.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Xml.XPath.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\vbc.exe
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\vbc.exe.config
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\vbc.rsp
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe
+C:\GamingWebsite\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe.config
+C:\GamingWebsite\CVGS\CVGS\bin\Antlr3.Runtime.dll
+C:\GamingWebsite\CVGS\CVGS\bin\EntityFramework.dll
+C:\GamingWebsite\CVGS\CVGS\bin\EntityFramework.SqlServer.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Web.Infrastructure.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Newtonsoft.Json.dll
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.Helpers.dll
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.Mvc.dll
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.Optimization.dll
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.Razor.dll
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.Deployment.dll
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.dll
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.Razor.dll
+C:\GamingWebsite\CVGS\CVGS\bin\WebGrease.dll
+C:\GamingWebsite\CVGS\CVGS\bin\EntityFramework.xml
+C:\GamingWebsite\CVGS\CVGS\bin\EntityFramework.SqlServer.xml
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.Helpers.xml
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.Mvc.xml
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.Optimization.xml
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.Razor.xml
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.xml
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.Deployment.xml
+C:\GamingWebsite\CVGS\CVGS\bin\System.Web.WebPages.Razor.xml
+C:\GamingWebsite\CVGS\CVGS\bin\Newtonsoft.Json.xml
+C:\GamingWebsite\CVGS\CVGS\bin\Antlr3.Runtime.pdb
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.csproj.AssemblyReference.cache
+C:\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.csproj.CoreCompileInputs.cache
+C:\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.csproj.CopyComplete
+C:\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.dll
+C:\GamingWebsite\CVGS\CVGS\obj\Debug\CVGS.pdb
+C:\GamingWebsite\CVGS\CVGS\bin\CaptchaMvc.dll
+C:\GamingWebsite\CVGS\CVGS\bin\CaptchaMvc.pdb
+C:\GamingWebsite\CVGS\CVGS\bin\CaptchaMvc.xml
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Security.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Client.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Server.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Owin.dll
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.xml
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Security.xml
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Client.xml
+C:\GamingWebsite\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Server.xml
+C:\Cvgs_2\CVGS\CVGS\obj\Debug\CVGS.csproj.AssemblyReference.cache
+C:\Cvgs_2\CVGS\CVGS\obj\Debug\CVGS.csproj.CoreCompileInputs.cache
+C:\Cvgs_2\CVGS\CVGS\obj\Debug\CVGS.dll
+C:\Cvgs_2\CVGS\CVGS\obj\Debug\CVGS.pdb
+C:\Cvgs_2\CVGS\CVGS\bin\CVGS.dll.config
+C:\Cvgs_2\CVGS\CVGS\bin\CVGS.dll
+C:\Cvgs_2\CVGS\CVGS\bin\CVGS.pdb
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\csc.exe
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\csc.exe.config
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\csc.rsp
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\csi.exe
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\csi.exe.config
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\csi.rsp
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.AppContext.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Collections.Immutable.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Console.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.IO.Compression.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Net.Http.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Net.Sockets.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.ValueTuple.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Xml.XPath.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\vbc.exe
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\vbc.exe.config
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\vbc.rsp
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe
+C:\Cvgs_2\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe.config
+C:\Cvgs_2\CVGS\CVGS\bin\Antlr3.Runtime.dll
+C:\Cvgs_2\CVGS\CVGS\bin\CaptchaMvc.dll
+C:\Cvgs_2\CVGS\CVGS\bin\EntityFramework.dll
+C:\Cvgs_2\CVGS\CVGS\bin\EntityFramework.SqlServer.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Security.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Client.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Server.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Web.Infrastructure.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Newtonsoft.Json.dll
+C:\Cvgs_2\CVGS\CVGS\bin\Owin.dll
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.Helpers.dll
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.Mvc.dll
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.Optimization.dll
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.Razor.dll
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.WebPages.Deployment.dll
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.WebPages.dll
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.WebPages.Razor.dll
+C:\Cvgs_2\CVGS\CVGS\bin\WebGrease.dll
+C:\Cvgs_2\CVGS\CVGS\bin\CaptchaMvc.pdb
+C:\Cvgs_2\CVGS\CVGS\bin\CaptchaMvc.xml
+C:\Cvgs_2\CVGS\CVGS\bin\EntityFramework.xml
+C:\Cvgs_2\CVGS\CVGS\bin\EntityFramework.SqlServer.xml
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.xml
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Security.xml
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Client.xml
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Server.xml
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.Helpers.xml
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.Mvc.xml
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.Optimization.xml
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.Razor.xml
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.WebPages.xml
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.WebPages.Deployment.xml
+C:\Cvgs_2\CVGS\CVGS\bin\System.Web.WebPages.Razor.xml
+C:\Cvgs_2\CVGS\CVGS\bin\Newtonsoft.Json.xml
+C:\Cvgs_2\CVGS\CVGS\bin\Antlr3.Runtime.pdb
+C:\Cvgs_2\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Cvgs_2\CVGS\CVGS\obj\Debug\CVGS.csproj.CopyComplete
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\NUnit3.TestAdapter.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\NUnit3.TestAdapter.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\nunit.engine.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\nunit.engine.api.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\nunit.engine.core.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\testcentric.engine.metadata.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\selenium-manager\linux\selenium-manager
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\selenium-manager\macos\selenium-manager
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\selenium-manager\windows\selenium-manager.exe
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\CVGS.dll.config
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\CVGS.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\CVGS.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\csc.exe
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\csc.exe.config
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\csc.rsp
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\csi.exe
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\csi.exe.config
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\csi.rsp
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.AppContext.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Collections.Immutable.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Console.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Globalization.Calendars.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.IO.Compression.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Net.Http.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Net.Sockets.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Reflection.Metadata.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.ValueTuple.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Xml.XPath.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\vbc.exe
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\vbc.exe.config
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\vbc.rsp
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\roslyn\VBCSCompiler.exe.config
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Antlr3.Runtime.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Antlr4.Runtime.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\BouncyCastle.Crypto.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\CaptchaMvc.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\EntityFramework.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\EntityFramework.SqlServer.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\EPPlus.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\EPPlus.Interfaces.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\EPPlus.System.Drawing.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.DependencyCollector.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.Web.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.WindowsServer.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.ApplicationInsights.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.Logging.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.Options.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.Primitives.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Security.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Client.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Server.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Web.Infrastructure.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Newtonsoft.Json.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\nunit.framework.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Owin.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Buffers.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Diagnostics.DiagnosticSource.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Memory.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Numerics.Vectors.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Threading.Tasks.Extensions.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.ValueTuple.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.Helpers.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.Mvc.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.Optimization.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.Razor.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.WebPages.Deployment.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.WebPages.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.WebPages.Razor.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\WebDriver.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\WebGrease.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Antlr4.Runtime.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\CaptchaMvc.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\CaptchaMvc.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\EntityFramework.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\EntityFramework.SqlServer.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\EPPlus.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.DependencyCollector.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.DependencyCollector.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.PerfCounterCollector.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.Web.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.Web.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.WindowsServer.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AI.WindowsServer.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.ApplicationInsights.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.ApplicationInsights.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.Logging.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.Options.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Extensions.Primitives.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Security.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Client.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Microsoft.Owin.Security.OAuth.Manager.Server.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Newtonsoft.Json.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\nunit.framework.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Buffers.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Diagnostics.DiagnosticSource.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Memory.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Numerics.Vectors.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Threading.Tasks.Extensions.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.ValueTuple.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.Helpers.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.Mvc.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.Optimization.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.Razor.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.WebPages.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.WebPages.Deployment.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\System.Web.WebPages.Razor.xml
+C:\CVGS_3_working_with roles\CVGS\CVGS\bin\Antlr3.Runtime.pdb
+C:\CVGS_3_working_with roles\CVGS\CVGS\obj\Debug\CVGS.csproj.AssemblyReference.cache
+C:\CVGS_3_working_with roles\CVGS\CVGS\obj\Debug\CVGS.csproj.CoreCompileInputs.cache
+C:\CVGS_3_working_with roles\CVGS\CVGS\obj\Debug\CVGS.csproj.CopyComplete
+C:\CVGS_3_working_with roles\CVGS\CVGS\obj\Debug\CVGS.dll
+C:\CVGS_3_working_with roles\CVGS\CVGS\obj\Debug\CVGS.pdb

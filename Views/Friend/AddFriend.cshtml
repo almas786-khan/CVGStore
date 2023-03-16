@@ -1,0 +1,203 @@
+﻿@model IEnumerable<CVGS.Models.User>
+@{
+    ViewBag.Title = "AddFriend";
+}
+
+<h2>Add Friends</h2>
+
+<br />
+@if (ViewBag.friendAdded != null)
+{
+    @*<div class="form-group">
+            <p style="color:red">@ViewBag.friendAdded</p>
+        </div>*@
+    <div class="alert alert-info"> <p>@ViewBag.friendAdded</p></div>
+
+}
+@if (ViewBag.removedFriend != null)
+{
+    @*<div class="form-group">
+            <p style="color:red">@ViewBag.removedFriend</p>
+        </div>*@
+    <div class="alert alert-info"> <p>@ViewBag.removedFriend</p></div>
+
+}
+@if (ViewBag.RequestSent != null)
+{
+    @*<div class="form-group">
+            <p style="color:red">@ViewBag.RequestSent</p>
+        </div>*@
+    <div class="alert alert-danger"> <p>@ViewBag.RequestSent</p></div>
+}
+
+
+@using (Html.BeginForm("AddFriend", "Friend", FormMethod.Get))
+
+{
+    @Html.TextBox("Search", null, new { Class = "form-control", placeHolder = "Search Your Friends Here" })
+    <input type="submit" value="Search" class="btn btn-success" />
+    
+}
+
+@if (Model.Count() == 0)
+{
+    <div class="alert alert-info"> <p>No Friend Found.</p></div>
+}
+else
+{
+    <table class="table table-striped" id="ItemList">
+        <thead>
+            <tr>
+                <th></th>
+                <th>
+                    Friend Name
+                </th>
+
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("AddFriend", "Friend", FormMethod.Post, new { id = @item.UserID }))
+                        {
+
+                            <div class="form-actions no-color">
+                                <input hidden type="text" value="@item.UserID" name="fID" style="width:140px" />
+
+                                @{
+                                    Array objectArrayFriendForRequest = (Array)TempData["CheckRequest"];
+                                    //   Array objectArrayFriendForApprove = (Array)TempData["CheckApprove"];
+                                    Array objectArrayFriendEachOther = (Array)TempData["CheckFriendEachOther"];
+
+                                    var checkRequestList = true;
+                                    int checkRequestFriend = 0;
+                                    int addFriend = 0;
+                                    //int checkApproveFriend = 0;
+                                    int checkFriendEachOthers = 0;
+                                    if (objectArrayFriendForRequest.Length != 0)
+                                    {
+                                        foreach (var checkRequest in objectArrayFriendForRequest)
+                                        {
+
+                                            //request friend
+                                            if (checkRequest.ToString().StartsWith(item.UserID.ToString()) && checkRequest.ToString().Contains("r") && checkRequest.ToString().EndsWith("1"))
+                                            {
+                                                //checkRequestList = false;
+                                                checkRequestFriend = 1;
+                                                break;
+                                            }
+                                            if (checkRequest.ToString().StartsWith(item.UserID.ToString()) && checkRequest.ToString().Contains("r") && checkRequest.ToString().EndsWith("0"))
+                                            {
+
+
+                                                //checkRequestList = true;
+                                                checkRequestFriend = 2;
+                                                //checkRequestList = true;
+
+                                            }
+                                            if (!(checkRequest.ToString().StartsWith(item.UserID.ToString()) && checkRequest.ToString().Contains("r") && checkRequest.ToString().EndsWith("1"))
+                                                && (!(checkRequest.ToString().StartsWith(item.UserID.ToString()) && checkRequest.ToString().Contains("r") && checkRequest.ToString().EndsWith("0"))))
+                                            {
+                                                addFriend = 1;
+                                                checkRequestList = false;
+                                            }
+
+                                        }
+
+                                       
+                                        
+
+                                        foreach (var checkFriendEachOther in objectArrayFriendEachOther)
+                                        {
+                                            if (checkFriendEachOther.ToString().StartsWith(item.UserID.ToString()) && checkFriendEachOther.ToString().Contains("e") && checkFriendEachOther.ToString().EndsWith("3"))
+                                            {
+                                                checkFriendEachOthers = 1;
+                                            }
+                                        }
+
+                                        if (checkRequestFriend == 1)
+                                        {
+                                            <input type="submit" value="Friend Request Received" name="btnSubmits" id="btnSubmits" class="btn btn-success"style="width:190px">
+                                        }
+                                        if (checkFriendEachOthers == 1)
+                                        {
+                                            <input type="submit" value="UnFriend" name="btnSubmits" id="btnSubmits" class="btn btn-default"style="width:190px">
+                                            checkRequestFriend = 1;
+                                        }
+
+                                        if (addFriend == 1 && checkRequestList == false && checkRequestFriend == 0)
+                                        {
+                                            <input type="submit" value="Add Friend" name="btnSubmits" id="btnSubmits" class="btn btn-primary"style="width:190px">
+                                        }
+
+                                        if (checkRequestFriend == 2)
+                                        {
+                                            <input type="submit" value="Friend Request Sent" name="btnSubmits" id="btnSubmits" class="btn btn-success"style="width:190px">
+                                        }
+
+
+                                    }
+                                    else if (objectArrayFriendEachOther.Length != 0)
+                                    {
+
+                                        foreach (var checkFriendEachOther in objectArrayFriendEachOther)
+                                        {
+                                            if (checkFriendEachOther.ToString().StartsWith(item.UserID.ToString()) && checkFriendEachOther.ToString().Contains("e") && checkFriendEachOther.ToString().EndsWith("3"))
+                                            {
+                                                checkFriendEachOthers = 1;
+                                            }
+
+                                        }
+                                        if (checkFriendEachOthers == 1)
+                                        {
+                                            <input type="submit" value="UnFriend" name="btnSubmits" id="btnSubmits" class="btn btn-default" style="width:190px">
+                                            checkRequestFriend = 1;
+                                        }
+                                        else
+                                        {
+                                            <input type="submit" value="Add Friend" name="btnSubmits" id="btnSubmits" class="btn btn-primary" style="width:190px">
+                                        }
+                                    }
+                                    else if (objectArrayFriendForRequest.Length == 0 && objectArrayFriendEachOther.Length == 0)
+                                    {
+                                        <input type="submit" value="Add Friend" name="btnSubmits" id="btnSubmits" class="btn btn-primary" style="width:190px">
+                                    }
+
+                                }
+
+
+                            </div>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+<div>
+    <p>
+        @Html.ActionLink("Back to List", "Index", "Friend")
+    </p>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+
+}
+
+

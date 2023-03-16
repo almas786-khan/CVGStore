@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CVGS.Models.Game>
+
+@{
+    ViewBag.Title = "Checkout";
+    var counter = 0.00;
+}
+
+<h2>Your Shopping Cart</h2>
+@if (ViewBag.CartSize != null)
+{
+    <div class="alert alert-danger"> <p>@ViewBag.CartSize</p></div>
+}
+<div class="jumbotron">
+    @foreach (var item in Model)
+    {
+        counter = counter + (double)item.GamePrice;
+        <table class="table">
+            <tr>
+                
+                <th style="width:50%;">
+                    @item.GameName
+                </th>
+                <th style="width:20%;">
+                    CDN$ @item.GamePrice
+                    </th>
+                <th style="width:30%;">
+                    @using (Html.BeginForm("Remove", "Checkout", FormMethod.Post))
+                    {
+                        <input hidden type="text" value="@item.GameID" name="gID" style="width:140px" />
+                        <input type="submit" value="Remove from Cart" />
+                    }
+                </th>
+            </tr>
+
+        </table>
+    }
+    <p>Total: $@counter</p>
+    @if (ViewBag.CartSize == null)
+    {
+        @Html.ActionLink("Purchase", "Details", "Checkout", new { area = "" }, null)
+    }
+</div>
+<section>
+    @Html.ActionLink("Continue Shopping", "Index", "Member", new { area = "" }, null)
+</section>

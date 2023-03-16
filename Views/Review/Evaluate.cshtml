@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CVGS.Models.ReviewViewModel>
+@{
+    ViewBag.Title = "Evaluate";
+}
+<h3>Reviews Evalaution</h3>
+@if (@ViewBag.Message != null)
+{
+    <br />
+    <div class="alert alert-danger"> <p>@ViewBag.Message</p></div>
+}
+@if (Model.Count() == 0)
+{
+    <br />
+    <div class="alert alert-danger"> <p>No review to evaluate</p></div>
+}
+else
+{
+    <table class="table table-bordered table-responsive table-hover">
+        <tr style="background-color:gainsboro">
+            <th>
+                @Html.DisplayNameFor(model => model.ReviewDate)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Review1)
+            </th>
+            <th>Member Name</th>
+            <th></th>
+            <th></th>
+            @foreach (var item in Model)
+            {
+            <tr>
+                @Html.HiddenFor(modelItem => item.ReviewID)
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReviewDate)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Review1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                @using (Html.BeginForm("Evaluate", "Review", FormMethod.Post))
+                {
+                    <td>
+                        <input type="hidden" value="@item.ReviewID" name="gID" style="width:140px" />
+                        <input id="@Model.FirstOrDefault(x=>x.ReviewID == x.ReviewID).ReviewID" type="submit" name="submit" value="Approve" class="btn btn-success">
+                    </td>
+                    <td>
+                        <input type="submit" name="submit" value="Reject" class="btn btn-danger">
+                    </td>
+                }
+
+            </tr>
+        }
+        </table>
+    }
